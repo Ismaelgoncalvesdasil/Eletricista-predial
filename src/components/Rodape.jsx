@@ -8,31 +8,37 @@ import QRcode from '../assets/QRcodewhatsapp.jpg'
 
 function Rodape() {
     return (
-        <footer className='rodape2 ' >
+        <footer >
 
             <div className='rodape'>
-                <img className='logo' src={logo} />
-                <ul>
-                    <h3>Nossos contatos</h3>
-                    <li>
-                        <p>(21)98952-7772</p>
-                    </li>
+                <div className='rodapes'>
 
-                </ul>
+                    <img className='logo' src={logo} />
+                    <ul>
+                        <h3>Nossos contatos</h3>
+                        <li>
+                            <p>(21)98952-7772</p>
+                        </li>
+
+                    </ul>
 
 
-                <ul>
-                    <h3>Rede Socias</h3>
-                    <div className='redes-socias'>
-                        {/* <img src={insta}/> */}
-                        <a href="https://wa.me/message/RKR6RB5VILLUA1"><img src={zap} /></a>
-                        <a className='qr' href="https://wa.me/message/RKR6RB5VILLUA1"><img src={QRcode} /></a>
-                        {/* <img src={face}/> */}
-                    </div>
+                    <ul>
+                        <h3>Rede Socias</h3>
+                        <div className='redes-socias'>
+                            {/* <img src={insta}/> */}
+                            <a href="https://wa.me/message/RKR6RB5VILLUA1"><img src={zap} /></a>
+                            <a className='qr' href="https://wa.me/message/RKR6RB5VILLUA1"><img src={QRcode} /></a>
+                            {/* <img src={face}/> */}
+                        </div>
 
-                </ul>
+                    </ul>
+                </div>
+                <h2 className='direito'>Ismael Gonçalves da Silva. Todos os Direitos Reservados.</h2>
+                <h3 className='produzido'>Site produzido em react por <a href="https://github.com/Ismaelgoncalvesdasil">Ismael Gonçalves da Silva</a></h3>
 
             </div>
+
         </footer>
     );
 }

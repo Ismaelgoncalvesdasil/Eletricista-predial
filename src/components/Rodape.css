@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
-footer .rodape {
-    display: flex;
+.rodape {
     background: #ff0000;
     color: #000000;
 }
 
+.rodapes{
+    display: flex;
+}
 
-footer .redes-socias img {
+.redes-socias img {
     width: 75px;
     padding: 5px;
     height: 60px;
@@ -15,21 +17,19 @@ footer .redes-socias img {
 }
 
 
-footer .rodape ul {
+.rodapes ul {
     width: 30%;
     margin-top: 30px;
 }
 
 
-footer .rodape h3 {
+.rodapes h3 {
     font-size: 16px;
     margin-bottom: 16px;
-    font-size: 600;
     font-family: Shrikhand;
 }
 
-
-footer .rodape li {
+.rodapes li {
     list-style: none;
     font-family: Shrikhand;
 }
@@ -38,25 +38,20 @@ footer .rodape li {
     width: 60px;    
 }
 
-.rodape .logo {
+.rodapes .logo {
     width: 500px;
-    padding: 20px;
+        align-items: center;
+        height: 200px;
+        margin-left: 55px;
 }
 
+.direito{
+    text-align: center;
+    
+}
 
-
-
-
-
-
-
-
-
-
-/* footer .logo-rodape {
-        width: 300px;
-        align-items: center;
-        
-        height: 100px;
-        margin-left: 55px;
-        } */
+.produzido{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
