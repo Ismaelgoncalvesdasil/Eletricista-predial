@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+
+.navibar {
+    border-bottom: 5px solid #000000;
+    background-color: #ff0000 !important;
+}
+
+
+.me-auto {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-family: Shrikhand;
+}
