@@ -1,5 +1,6 @@
 import React from 'react';
 import './Rodape.css'
+import logo from '../assets/favicon.ico'
 // import insta from '../assets/insta.png'
 import zap from '../assets/zap.png'
 import QRcode from '../assets/QRcodewhatsapp.jpg'
@@ -10,7 +11,7 @@ function Rodape() {
         <footer className='rodape2 ' >
 
             <div className='rodape'>
-
+                <img className='logo' src={logo} />
                 <ul>
                     <h3>Nossos contatos</h3>
                     <li>
