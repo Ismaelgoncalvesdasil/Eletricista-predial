@@ -23,6 +23,11 @@ function NavbarReact() {
           </Navbar.Collapse>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
+              <NavDropdown.Item href="/certificado">Certificado</NavDropdown.Item>
+            </Nav>
+          </Navbar.Collapse>
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
               <NavDropdown.Item href="/contato">Contato</NavDropdown.Item>
             </Nav>
           </Navbar.Collapse>

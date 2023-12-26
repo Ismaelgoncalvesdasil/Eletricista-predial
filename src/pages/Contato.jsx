@@ -42,7 +42,6 @@ const Contato = () => {
           <option value="Instalação de DPS (Dispositivo de proteção contra surto)">Instalação de DPS (Dispositivo de proteção contra surto)</option>
           <option value="Instalação de DR ( IDR & DDR)">Instalação de DR ( IDR & DDR)</option>
           <option value="Outros serviços que envovam eletricidade">Outros serviços que envovam eletricidade</option>
-          <option value="">Selecione um assunto</option>
         </select>
       </label>
       <label>
@@ -57,7 +56,9 @@ const Contato = () => {
         Mensagem:
         <textarea {...register('message', { required: true })} />
       </label>
+      <div className='btn'>
       <button type="submit">Enviar para o WhatsApp</button>
+      </div>
     </form>
   );
 };
