@@ -4,8 +4,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assets/favicon.ico'
-import { Link } from "react-router-dom"
-
 import "./Navbar.css";
 
 
@@ -23,7 +21,7 @@ function NavbarReact() {
           </Navbar.Collapse>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <NavDropdown.Item href="/certificado">Certificado</NavDropdown.Item>
+              <NavDropdown.Item href="/certificados">Certificados</NavDropdown.Item>
             </Nav>
           </Navbar.Collapse>
           <Navbar.Collapse id="basic-navbar-nav">

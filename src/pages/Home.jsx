@@ -25,6 +25,9 @@ const Home = () => {
             <Link to={`/Contato/${encodeURIComponent(subject)}`}>{subject}</Link>
           </li>
         ))}
+        <li>
+          <Link to={`/outros-serviços`}>Outros tipos de instialações como (CFTV,CABO DE REDE E ETC)</Link>
+        </li>
       </ul>
     </div>
   );
