@@ -5,11 +5,14 @@ import './Outrasserv.css'
 const Serv = () => {
   const subjects = [
     'Instalações de CFTV(Circuito fechado de tv) mais conhecido como Camera de segurança',
-    'Instalaçoes de Centrais Convencionais de Incêndio'
+    'Instalaçoes de Centrais Convencionais de Incêndio',
+    'Instalações de Cabo de rede',
+    'Instalações de Roteadores',
+    'Configuração de Roteadores',
   ];
 
   return (
-    <div className='Serv'>
+    <div className='serv'>
       <h1>Ismael Gonçalves Eletricista predial</h1>
       <ul>
         {subjects.map((subject, index) => (

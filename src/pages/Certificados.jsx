@@ -8,7 +8,8 @@ const Certificado = () => {
     return (
         <div className="certificado">
             <h1 className="tipo">Eletricista predial</h1><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-            <br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br />           {/* <img src={certificadoeletricista} alt="" /> */}
+            <br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br />
+            {/* <img src={certificadoeletricista} alt="" /> */}
             <h1>Instalação de Circuitos Fechados de TV - CFTV</h1>
             <img src={certificadocftv} />
             <h1>Centrais Convencionais de Incêndio</h1>
