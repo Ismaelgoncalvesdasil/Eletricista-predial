@@ -3,9 +3,24 @@
     text-align: center;
 }
 
-.certificado h1 {
+.certificado h1,h2 {
     text-decoration-color: black;
-    font-size: 130px;
+    font-size: 103.3px;
     color: red;
     text-shadow: 6px 6px 10px rgb(0, 0, 0);
 }
+
+.card {
+    background: none;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    transform: scale(1.005)
+}
+.certificado h2 {
+    font-size: 19px;
+}
+  
+
+  
