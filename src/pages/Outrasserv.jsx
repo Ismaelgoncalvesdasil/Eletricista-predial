@@ -9,6 +9,9 @@ const Serv = () => {
     'Instalações de Cabo de rede',
     'Instalações de Roteadores',
     'Configuração de Roteadores',
+    'Formatação de computadores',
+    'Instalações de sistemas operacionais',
+    'Instalaçoes de pacotes office',
   ];
 
   return (

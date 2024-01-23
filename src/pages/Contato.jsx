@@ -29,7 +29,6 @@ const Contato = () => {
       <label>
         Assunto:
         <select {...register('subject', { required: true })} disabled={!!subject}>
-          {/* Se o assunto estiver na URL, exibe a opção selecionada */}
           {subject && <option value={subject}>{subject}</option>}
           <option value="">Selecione um assunto</option>
           <option value="Mauntenção e reparo de instalações elétricas">Mauntenção e reparo de instalações elétricas</option>
@@ -42,6 +41,14 @@ const Contato = () => {
           <option value="Instalação de DPS (Dispositivo de proteção contra surto)">Instalação de DPS (Dispositivo de proteção contra surto)</option>
           <option value="Instalação de DR ( IDR & DDR)">Instalação de DR ( IDR & DDR)</option>
           <option value="Outros serviços que envovam eletricidade">Outros serviços que envovam eletricidade</option>
+          <option value="Instalações de CFTV(Circuito fechado de tv) mais conhecido como Camera de segurança">Instalações de CFTV(Circuito fechado de tv) mais conhecido como Camera de segurança</option>
+          <option value="Instalaçoes de Centrais Convencionais de Incêndio">Instalaçoes de Centrais Convencionais de Incêndio</option>
+          <option value="Instalações de Cabo de rede">Instalações de Cabo de rede</option>
+          <option value="Instalações de Roteadores">Instalações de Roteadores</option>
+          <option value="Configuração de Roteadores">Configuração de Roteadores</option>
+          <option value="Formatação de computadores">Formatação de computadores</option>
+          <option value="Instalações de sistemas operacionais">Instalações de sistemas operacionais</option>
+          <option value="Instalaçoes de pacotes office">Instalaçoes de pacotes office</option>
         </select>
       </label>
       <label>
