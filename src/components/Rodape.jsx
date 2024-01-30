@@ -4,6 +4,7 @@ import logo from '../assets/favicon.ico'
 import insta from '../assets/insta.png'
 import zap from '../assets/zap.png'
 import QRcode from '../assets/QRcodewhatsapp.jpg'
+import linkedin from '../assets/linkedin.png'
 // import face from '../assets/face.png'
 
 function Rodape() {
@@ -19,7 +20,7 @@ function Rodape() {
                         <li>
                             <p>(21)98952-7772</p>
                         </li>
-                        <div className='redes-socias'>
+                        <div className='contatos'>
                             <a href="https://wa.me/message/RKR6RB5VILLUA1"><img src={zap} /></a>
                             <a className='qr' href="https://wa.me/message/RKR6RB5VILLUA1"><img src={QRcode} /></a>
                         </div>
@@ -30,6 +31,7 @@ function Rodape() {
                         <h3>Rede Socias</h3>
                         <div className='redes-socias'>
                             <a href="https://www.instagram.com/ismaelgoncalveseletricista/"> <img src={insta} /></a>
+                            <a href="https://www.linkedin.com/in/ismaelgoncalves/"> <img src={linkedin} /></a>
 
                             {/* <img src={face}/> */}
                         </div>

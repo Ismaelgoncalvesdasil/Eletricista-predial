@@ -5,7 +5,7 @@
     color: #000000;
 }
 
-.rodapes{
+.rodapes {
     display: flex;
 }
 
@@ -13,7 +13,12 @@
     width: 75px;
     padding: 5px;
     height: 60px;
-    display: flex;
+}
+
+.contatos img {
+    width: 75px;
+    padding: 5px;
+    height: 60px;
 }
 
 
@@ -34,23 +39,23 @@
     font-family: Shrikhand;
 }
 
-.qr{
-    width: 60px;    
+.qr {
+    width: 60px;
 }
 
 .rodapes .logo {
     width: 500px;
-        align-items: center;
-        height: 200px;
-        margin-left: 55px;
+    align-items: center;
+    height: 200px;
+    margin-left: 55px;
 }
 
-.direito{
+.direito {
     text-align: center;
-    
+    font-size: 30px;
 }
 
-.produzido{
+.produzido {
     text-align: center;
     font-size: 16px;
     margin-bottom: 0px;
