@@ -29,6 +29,11 @@ function NavbarReact() {
               <NavDropdown.Item href="/contato">Contato</NavDropdown.Item>
             </Nav>
           </Navbar.Collapse>
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <NavDropdown.Item href="/curriculo">Currículo</NavDropdown.Item>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </div>

@@ -5,6 +5,7 @@ import Home from '../pages/Home'
 import Cetificados from '../pages/Certificados'
 import Contato from '../pages/Contato'
 import Serv from '../pages/Outrasserv';
+import Curriculo from '../pages/Curriculo';
 
 export const Rotas = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const Rotas = createBrowserRouter([
       {
         path: '/outros-serviços',
         element: <Serv />,
+      },
+      {
+        path: '/curriculo',
+        element: <Curriculo />,
       },
     ],
   },

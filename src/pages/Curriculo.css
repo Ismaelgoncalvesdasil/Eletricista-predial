@@ -1,0 +1,34 @@
+.curriculo{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.curriculo h2{
+    font-size: 20px;
+}
+
+.curriculo hr{
+    color: red;
+    border: 2px solid red;
+}
+
+.curriculo .contato , .Competencias , .Cursos {
+    display: flex ;
+    justify-content: space-between;
+  }
+
+  .curriculo .contato h1{
+    margin-left: 10px;
+  }
+
+  .curriculo .ch2{
+    display: inline;
+  }
+
+  .curriculo .ch2 h2{
+    margin-left: 250px;
+  }
+  
+  .curriculo .Cursos .ch2 h1{
+    font-size: 30px;
+  }
