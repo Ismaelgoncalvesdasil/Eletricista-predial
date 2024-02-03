@@ -1,34 +1,64 @@
-.curriculo{
-    text-align: right;
-    margin-right: 20px;
+.curriculo {
+  text-align: right;
+  margin-right: 20px;
 }
 
-.curriculo h2{
-    font-size: 20px;
+.curriculo h2 {
+  font-size: 20px;
 }
 
-.curriculo hr{
-    color: red;
-    border: 2px solid red;
+.curriculo hr {
+  color: red;
+  border: 2px solid red;
 }
 
-.curriculo .contato , .Competencias , .Cursos {
-    display: flex ;
-    justify-content: space-between;
-  }
+.curriculo .contato,
+.curriculo .Competencias,
+.curriculo .Cursos,
+.curriculo .Formação,
+.curriculo .Objetivo {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .curriculo .contato h1{
-    margin-left: 10px;
-  }
+.curriculo .contato h1,
+.curriculo .Competencias h1,
+.curriculo .Cursos h1,
+.curriculo .Formação h1,
+.curriculo .Objetivo h1 {
+  margin-left: 10px;
+}
 
-  .curriculo .ch2{
-    display: inline;
-  }
+.curriculo .ch2 {
+  display: inline;
+}
 
-  .curriculo .ch2 h2{
-    margin-left: 250px;
-  }
-  
-  .curriculo .Cursos .ch2 h1{
-    font-size: 30px;
-  }
+.curriculo .ch2 h2 {
+  margin-left: 250px;
+}
+
+.curriculo .Cursos .ch2 h1,
+.curriculo .Formação .ch2 h1 {
+  font-size: 30px;
+  margin-left: 150px;
+}
+
+.curriculo  .curri{
+  text-align: center;
+  color: red;
+}
+
+.curriculo a{
+  background-color: #000000a2;
+  font-weight: bold;
+  border: 1px solid #231c1c;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #00000032;
+}

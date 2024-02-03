@@ -7,9 +7,12 @@
 
 }
 
+.dropdown-item{
+    width: auto;
+}
 
 .me-auto {
-    width: 300px;
+    width: 220px;
     display: flex;
     justify-content: space-evenly;
     font-size: 30px;
