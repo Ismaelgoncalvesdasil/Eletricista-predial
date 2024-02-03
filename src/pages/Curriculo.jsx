@@ -9,7 +9,7 @@ const Curriculo = () => {
 
         const caminhoDoArquivo = currículo;
 
-        const nomeDoArquivo = 'curriculo.pdf';
+        const nomeDoArquivo = 'currículo.pdf';
 
         saveAs(caminhoDoArquivo, nomeDoArquivo);
     };
