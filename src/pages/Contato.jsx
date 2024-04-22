@@ -18,7 +18,7 @@ const Contato = () => {
   const onSubmit = (data) => {
     // lógica para enviar os dados para o WhatsApp
     const message = `Assunto: ${data.subject}%0ANome: ${data.name}%0AEmail: ${data.email}%0AMensagem: ${data.message}`;
-    const whatsappLink = `https://wa.me/21989527772?text=${message}`;
+    const whatsappLink = `https://wa.me/+5521989527772?text=${message}`;
 
     // Redireciona para o link do WhatsApp
     window.location.href = whatsappLink;
