@@ -44,6 +44,8 @@ const Curriculo = () => {
                 <div className='ch2'>
                     <h1> Curso de Qualificação de ELETRICISTA PREDIAL</h1>
                     <h2>Curso de eletricista predial do tipo qualificação na instituição Firjan Senai tijuca com carga horária total de 400h</h2>
+                    <h1> Participação voluntariamente da montagem e configuração da planta didática em sistemas de segurança eletrônica</h1>
+                    <h2>Participação voluntariamente da montagem e configuração da planta didática em sistemas de segurança eletrônica no laboratório de sistemas de automação residencial, com carga horária de 12 horas, realizado no período de 10/01/2024 até 12/02/2024</h2>
                     <h1>Curso online/CFTV </h1>
                     <h2>Curso de instalação e manutenção de CFTV Pela segurimax nível 1 com carga horária de 5 horas e nível 2 com carga horária de 5 horas </h2>
                     <h1>Curso online/Centrais Convencionais de Incêndio</h1>
