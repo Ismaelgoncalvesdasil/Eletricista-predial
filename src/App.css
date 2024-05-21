@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    /* background-image: url(./assets/tomada.webp); */
+    background-color: rgb(28, 27, 27);
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+}
