@@ -13,7 +13,7 @@ const Home = () => {
     'Substituição de dijuntores',
     'Instalação de DPS (Dispositivo de proteção contra surto)',
     'Instalação de DR ( IDR & DDR)',
-    'Outros serviços que envovam eletricidade'
+    'Outros serviços que envolvam eletricidade'
   ];
 
   return (
@@ -26,7 +26,7 @@ const Home = () => {
           </li>
         ))}
         <li>
-          <Link to={`/outros-serviços`}>Outros tipos de instialações como (CFTV,CABO DE REDE E ETC)</Link>
+          <Link to={`/outros-serviços`}>Outros tipos de instalações como (CFTV,CABO DE REDE E ETC)</Link>
         </li>
       </ul>
     </div>
